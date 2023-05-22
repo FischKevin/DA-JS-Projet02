@@ -135,7 +135,7 @@ li > a:visited {
 }
 
 .filter-type {
-    border: 1px solid var(--main-bg-color);
+    border: 2px solid var(--main-bg-color);
     border-radius: 20px;
     display: flex;
     height: 42px;
