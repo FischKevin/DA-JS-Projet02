@@ -29,17 +29,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    align-items: center;
+    margin-top: 15px;
 }
 
 .logo {
-    height: 80px;
-
+    height: 25px;
 }
 
 nav {
-    position: relative;
-    top: 20px;
     font-size: 20px;
 }
 
@@ -51,12 +49,15 @@ li {
 li > a {
     text-decoration: none;
     padding: 15px;
-    color: inherit;
 }
 
 li > a:hover {
     color: var(--main-color);
     border-top: 1px solid var(--main-color);
+}
+
+li > a:visited {
+    color: black;
 }
 
 /****** Search and filter ***********/
