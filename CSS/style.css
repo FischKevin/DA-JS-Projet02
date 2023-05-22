@@ -68,9 +68,12 @@ li > a:visited {
     padding: 10px 25px;
 }
 
-.search {
-    /* padding-top: -10px; */
-    margin: 1px solid red;
+.search > h1 {
+    margin-bottom: 0px;
+}
+
+.search > p {
+    margin: 10px 0 30px 0;    
 }
 
 .search-bar {
@@ -78,30 +81,41 @@ li > a:visited {
 }
 
 .fa-map-marker-alt {
-    background-color: var(--filter-bg-color);
-    border: 1px solid var(--filter-bg-color);
-    border-radius: 10px 0 0 10px;
-    font-size: 12px;
-    width: 30px;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 35px;
     text-align: center;
-    padding-top: 8px;  
-}
-
-.search-button {
-    background-color: var(--main-color);
-    border: 0;
-    border-radius: 0 10px 10px 0;
-    color: white;
-    height: 32px;
-    padding: 0 10px;
+    padding-top: 14px;
 }
 
 .search-input {
     border: 1px solid var(--filter-bg-color);
-    height: 32px;
-    padding-left: 10px;
-    outline: none;
+    height: 50px;
+    width: 195px;
+    text-align: center;
+    padding: 0;
+}
+
+.search-input::placeholder {
+    color: black;
+    opacity: 1;
     font-size: 18px;
+    font-weight: 700;
+}
+
+.search-button {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    height: 52px;
+    width: 132px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .filters {
