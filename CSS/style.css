@@ -125,9 +125,13 @@ li > a:visited {
     justify-content:flex-start
 }
 
-.filters > h2 {
+.filters > p {
+    font-size: 18px;
+    font-weight: 700;
     padding-top: 7px;
     margin-right: 10px;
+    margin: 0 15px 0 0;
+    padding-top: 10px;
 }
 
 .filter-type {
@@ -140,23 +144,20 @@ li > a:visited {
     margin-right:  20px;
 }
 
-.fa-stack {
-    margin-left: -8px;
-}
-
-.fa-stack > h3 {
-    padding-left: 55px;
+.filter-type > p {
+    font-size: 17px;
+    font-weight: 700;
 }
 
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
-.fa-dog {
+.fa-fire {
     color: var(--main-color);
 }
 
 .fa-circle {
-    color: var(--main-bg-color);
+    color: white;
 }
 
 .information {
