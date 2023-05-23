@@ -70,10 +70,12 @@ li > a:visited {
 
 .search > h1 {
     margin-bottom: 0px;
+    font-size: 22px;
 }
 
 .search > p {
-    margin: 10px 0 30px 0;    
+    margin: 10px 0 30px 0;
+    font-size: 16px;
 }
 
 .search-bar {
@@ -105,6 +107,7 @@ li > a:visited {
     opacity: 1;
     font-size: 18px;
     font-weight: 700;
+    outline: none;
 }
 
 .search-button {
