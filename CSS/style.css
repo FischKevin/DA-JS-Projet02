@@ -1,12 +1,13 @@
 /****** General ***********/
-* {
-    font-family: 'Raleway', sans-serif;
-}
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .fa-solid {
@@ -16,6 +17,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -25,14 +27,11 @@ body {
     box-sizing: border-box;
 }
 
-
-
 /****** Header ***********/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
 }
 
 .logo {
@@ -66,6 +65,7 @@ li > a:visited {
 
 .search-and-filter {
     padding: 10px 25px;
+    margin-top: 25px;
 }
 
 .search > h1 {
@@ -78,6 +78,7 @@ li > a:visited {
 
 .search-bar {
     display: flex;
+    margin-top: 25px;
 }
 
 .fa-map-marker-alt {
@@ -121,7 +122,7 @@ li > a:visited {
 .filters {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 0;
+    padding: 40px 0 15px 0;
     justify-content:flex-start
 }
 
