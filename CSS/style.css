@@ -137,12 +137,16 @@ li > a:visited {
 
 .filter-type {
     border: 2px solid var(--main-bg-color);
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     height: 42px;
     align-items: center;
     padding-right: 12px;
     margin-right:  20px;
+}
+
+.filter-type:hover {
+    background-color: var(--filter-bg-color);
 }
 
 .filter-type > p {
@@ -155,10 +159,8 @@ li > a:visited {
 .fa-heart,
 .fa-fire {
     color: var(--main-color);
-}
-
-.fa-circle {
-    color: white;
+    margin: 0 10px;
+    font-size: 20px;
 }
 
 .information {
