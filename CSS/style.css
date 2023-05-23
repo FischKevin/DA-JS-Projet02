@@ -364,12 +364,23 @@ li > a:visited {
 
 }
 
-
-
 /*** Footer ***/
 
 footer {
-    padding: 10px 0;
+    display: flex;
+    background-color: var(--main-bg-color);
+    flex-direction: row;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
