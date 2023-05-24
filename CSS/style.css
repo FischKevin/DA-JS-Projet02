@@ -57,10 +57,6 @@ li > a:hover {
     border-top: 1px solid var(--main-color);
 }
 
-li > a:visited {
-    color: black;
-}
-
 /****** Search and filter ***********/
 
 .search-and-filter {
@@ -451,6 +447,46 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 767.99px) {
+    .main-container {
+        padding: 0;
+      }
+    
+    header {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        
+    }
+
+    li {
+        flex-basis: 50%;
+        width: 100%;
+        
+    }
+
+    li > a {
+        display: block;
+        padding:0;
+        max-width: 100%;
+        border-bottom: 1px solid transparent;
+    }
+
+    li > a:hover {
+        border-bottom: 1px solid var(--main-color);
+        border-top: 0px solid;
+      }
+
 }
