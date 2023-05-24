@@ -605,4 +605,23 @@ footer {
         margin-bottom: 0;
         margin-top: 20px;
     }
+
+    .hebergements-cards .card-title {
+        font-size: 15   px;
+    }
+    .hebergements-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+    }
+
+    .activites-content {
+        margin-bottom: 20px;
+    }
+
+    .activites-cards img {
+        height: 141x;
+    }
 }
