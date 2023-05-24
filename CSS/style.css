@@ -624,4 +624,8 @@ footer {
     .activites-cards img {
         height: 141x;
     }
+
+    footer {
+        flex-direction: column;
+    }
 }
