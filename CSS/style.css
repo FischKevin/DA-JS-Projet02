@@ -467,6 +467,10 @@ footer {
     .activites-cards img {
         height: 280px;
     }
+
+    footer {
+        gap: 7%;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
