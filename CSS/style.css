@@ -340,7 +340,7 @@ li > a:visited {
     display: flex;
     margin: 30px 0 0 0;
     flex-direction: row;
-    gap: 25px;
+    gap: 2%;
 }
 
 .activites-content {
