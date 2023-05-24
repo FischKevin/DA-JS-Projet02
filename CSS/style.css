@@ -60,7 +60,7 @@ li > a:hover {
 /****** Search and filter ***********/
 
 .search-and-filter {
-    padding: 10px 25px;
+    padding: 10px 0;
     margin-top: 25px;
 }
 
@@ -144,9 +144,7 @@ li > a:hover {
     font-size: 18px;
     font-weight: 700;
     padding-top: 7px;
-    margin-right: 10px;
     margin: 0 15px 0 0;
-    padding-top: 10px;
 }
 
 .filter-content {
@@ -423,6 +421,16 @@ footer {
         margin-bottom: 15px;
     }
 
+    .filter-content {
+        align-items: flex-start;
+     }
+
+
+    .filter-type {
+       margin-right: 18px; 
+    }
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -506,6 +514,7 @@ footer {
 
     .search-and-filter {
         margin-top: 0;
+        padding: 0 20px;
     }
 
     .search-and-filter h1 {
@@ -526,4 +535,25 @@ footer {
         display: block;
     }
 
+    .filters {
+        padding: 20px 0 0 0; /*modifié*/
+    }
+    
+    .filter-content {
+        flex-wrap: wrap; /*modifié*/
+        justify-content: space-around; /*modifié*/
+    }
+    
+    .filter-type {
+        flex-basis: 44%; /*modifié*/
+        font-size: 14px; /*modifié*/
+        font-weight: 700; /*modifié*/
+        margin-bottom: 15px; /*modifié*/
+        margin-right: 0; /*modifié*/
+        padding: 0 10px 0 0; /*modifié*/ 
+    }
+
+    .information {
+        margin-bottom: 10px;
+    }
 }
