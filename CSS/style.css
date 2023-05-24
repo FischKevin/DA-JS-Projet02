@@ -370,17 +370,26 @@ footer {
     display: flex;
     background-color: var(--main-bg-color);
     flex-direction: row;
+    gap: 15%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 20px;
 }
 
 .footer-title {
     font-size: 18px;
     font-weight: 700;
-    
+    padding-bottom: 10px;
+
 }
 
 .footer-text {
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 10px;
 }
 
 
