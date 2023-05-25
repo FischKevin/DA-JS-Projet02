@@ -55,6 +55,7 @@ li {
 li > a {
     text-decoration: none;
     padding: 15px;
+    color: black;
 }
 
 li > a:hover {
@@ -507,24 +508,23 @@ footer {
         width: 100%;
         padding: 0;
         align-items: center;
-        
     }
 
     li {
         flex-basis: 50%;
         width: 100%;
-        
     }
 
     li > a {
         display: block;
         padding:0;
         max-width: 100%;
-        border-bottom: 1px solid transparent;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 15px;
     }
 
     li > a:hover {
-        border-bottom: 1px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
         border-top: 0px solid;
       }
 
@@ -597,7 +597,12 @@ footer {
 
     .populaires-cards {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .populaires-cards a {
+        margin-bottom: 5px;
     }
 
     .populaires-cards .card {
