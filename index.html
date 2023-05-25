@@ -32,9 +32,13 @@
         
                     <div class="search-bar">
                         <i class="fa-solid fa-map-marker-alt"></i>
-                        <input type="text" class="search-input" name="Placeholder" placeholder="Marseille, France">
-                        <input type="button" class="search-button" name="Rechercher" value="Rechercher">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="search-input" name="Placeholder" placeholder="">
+                        <button type="button" class="search-button">
+                             <span>Rechercher</span>
+                        </button>
+                        <button class="magnifying-glass">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
                     </div>
                 </div>
         
@@ -72,10 +76,12 @@
             </section>
 
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
+
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/fred-kleber.jpg" alt="Photo d'une chambre de l'Hôtel du port à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -90,9 +96,11 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/febrian-zakaria.jpg" alt="Photo d'une chambre de l'Hôtel Chez Amina à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -107,9 +115,11 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/reisetopia.jpg" alt="Photo d'une chambre de l'Hôtel les Mouettes à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -124,9 +134,11 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/annie-spratt.jpg" alt="Photo d'une chambre de l'Hôtel de la mer à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -141,9 +153,11 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/marcus-loke.jpg" alt="Photo d'une chambre de l'Auberge La Canebière à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -158,9 +172,11 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                         <article class="card">
+                            <a href="#">
                             <img src="./images/hebergements/nicate-lee.jpg" alt="Photo d'une chambre de l'Auberge Le Panier à Marseille">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -175,6 +191,7 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
+                            </a>
                         </article>
         
                     </div>
@@ -186,7 +203,8 @@
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
-                        <article class="card">
+
+                        <a href="#"><article class="card">  
                             <img src="./images/hebergements/emile-guillemot.jpg" alt="Image d'une chambre de l'Hôtel Le soleil du matin">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -201,8 +219,9 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
-                        </article>
-                        <article class="card">
+                        </article></a>
+                        
+                        <a href="#"><article class="card">
                             <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -217,8 +236,9 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
-                        </article>
-                        <article class="card">
+                        </article></a>
+                        
+                        <a href="#"><article class="card">
                             <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
@@ -233,30 +253,44 @@
                                     <i class="fa-xs fa-solid fa-star empty" aria-hidden="true"></i>
                                 </div>
                             </div>
-                        </article>
+                        </article></a>
                     </div>
                 </section>
             </div>
 
-            <section class="activites">
+            <section class="activites" id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
+
                 <div class="activites-cards">
+                    
                     <div class="activites-content">
+                        <a href="#">
                         <img src="./images/activites/reno-laithienne.jpg" alt="Photo du vieux port de Marseille">
                         <p>Vieux-Port</p>
+                        </a>
                     </div>
+                    
                     <div class="activites-content">
+                        <a href="#">
                         <img src="./images/activites/paul-hermann.jpg" alt="Photo du Fort de Pomègues">
                         <p>Fort de Pomègues</p>
+                        </a>
                     </div>
+
                     <div class="activites-content">
+                        <a href="#">
                         <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo du parc national des Calanques">
                         <p>Parc National des Calanques</p>
+                        </a>
                     </div>
+
                     <div class="activites-content">
+                        <a href="#">
                         <img src="./images/activites/florian-wehde.jpg" alt="Photo de Notre Dame de la Garde">
                         <p>Notre-Dame-de-la-Garde</p>
+                        </a>
                     </div>
+
                 </div>
             </section>
 
