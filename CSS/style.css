@@ -27,6 +27,11 @@ body {
     box-sizing: border-box;
 }
 
+.fs18-fw700 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /****** Header ***********/
 header {
     display: flex;
@@ -97,16 +102,12 @@ li > a:hover {
     width: 195px;
     text-align: center;
     padding: 0;
-    font-size: 18px;
-    font-weight: 700;
 }
 
 .search-input::placeholder {
     color: black;
-    opacity: 1;
-    font-size: 18px;
-    font-weight: 700;
     outline: none;
+    opacity: 1;
 }
 
 .search-button {
@@ -117,13 +118,7 @@ li > a:hover {
     height: 51.5px;
     width: 132px;
     padding: 0 10px;
-    font-size: 18px;
-    font-weight: 700;
     display: block;
-}
-
-.search-button:hover {
-    box-shadow: -3px -4px 7px -2px rgba(186,200,242,0.75) inset;
 }
 
 .search-bar .magnifying-glass {
@@ -135,16 +130,11 @@ li > a:hover {
     border: 1px solid var(--main-color);;
     border-radius: 20px;
     color: white;
-    height: 35px;
-    width: 25px;
+    height: 40px;
+    width: 30px;
     padding: 14px 10px 0 14px;
-    font-size: 18px;
-    font-weight: 700;
     display: none;
-}
-
-.fa-magnifying-glass:hover {
-    box-shadow: -3px -4px 7px -2px rgba(186,200,242,0.75) inset;
+    margin-top: -3px;
 }
 
 .filters {
@@ -155,8 +145,6 @@ li > a:hover {
 }
 
 .filters > p {
-    font-size: 18px;
-    font-weight: 700;
     padding-top: 7px;
     margin: 0 15px 0 0;
 }
@@ -272,6 +260,7 @@ li > a:hover {
 
 .hebergements-cards a {
     text-decoration: none;
+    color: black;
 }
 
 .hebergements-cards .card {
@@ -309,11 +298,6 @@ li > a:hover {
     margin-bottom: 5px;
 }
 
-.show-more {
-    font-size: 18px;
-    font-weight: 700;
-}
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -327,6 +311,7 @@ li > a:hover {
 
 .populaires-cards a {
     text-decoration: none;
+    color: black;
 }
 
 .populaires-cards .card {
@@ -380,6 +365,7 @@ li > a:hover {
 
 .activites-cards a {
     text-decoration: none;
+    color: black;
 }
 
 .activites-content {
@@ -401,7 +387,6 @@ li > a:hover {
     font-size: 16px;
     font-weight: 700;
     padding-left: 20px;
-
 }
 
 /*** Footer ***/
@@ -420,10 +405,7 @@ footer {
 }
 
 .footer-title {
-    font-size: 18px;
-    font-weight: 700;
     padding-bottom: 10px;
-
 }
 
 .footer-text {
@@ -466,20 +448,24 @@ footer {
     }
 
     .populaires {
-        width: 100%;
+        width: auto;
         margin-top: 50px;
         padding-bottom: 120px;
+        padding-top: 10px;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 20px;
     }
 
-    .populaires-cards .card {
-        width: 30%;
-        margin-bottom: 20px;
+    .populaires-cards a {
+        margin-bottom: 50px;
+        height: 146px;
+        width: -webkit-fill-available;
+        width: -moz-available;        
     }
 
     .populaires-cards .card-title {
@@ -551,8 +537,12 @@ footer {
         margin-top: 0;
     }
 
+    .search-bar {
+        justify-content: center;
+    }
+
     .search-input {
-        margin-right: -20px;
+        margin-right: -25px;
         text-align: left;
         padding-left: 30px;
     }
