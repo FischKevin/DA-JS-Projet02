@@ -60,7 +60,7 @@ li > a {
 
 li > a:hover {
     color: var(--main-color);
-    border-top: 1px solid var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 /****** Search and filter ***********/
@@ -362,6 +362,7 @@ li > a:hover {
     margin: 30px 0 0 0;
     flex-direction: row;
     gap: 2%;
+    padding: 0 10px;
 }
 
 .activites-cards a {
@@ -375,8 +376,8 @@ li > a:hover {
     flex-direction: column;
     box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-
 }
+
 .activites-cards img {
     width: 100%;
     height: 380px;
@@ -488,6 +489,10 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.99px) {
+    body {
+        display: block;
+    }
+
     .main-container {
         padding: 0;
       }
