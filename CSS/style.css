@@ -544,12 +544,18 @@ footer {
 
     .search-bar {
         justify-content: center;
+        /* padding: 0 10px; */
+    }
+
+    .fa-map-marker-alt {
+       min-width: 50px;
     }
 
     .search-input {
         margin-right: -25px;
         text-align: left;
-        padding-left: 30px;
+        padding-left: 10px;
+        min-width: 0;
     }
 
     .search-button {
@@ -561,6 +567,7 @@ footer {
         background-color: transparent;
         border: 0;
     }
+
     .fa-magnifying-glass {
         display: block;
     }
@@ -575,7 +582,7 @@ footer {
     }
     
     .filter-type {
-        flex-basis: 44%;
+        flex-basis: 35%;
         font-size: 14px;
         font-weight: 700;
         margin-bottom: 15px;
