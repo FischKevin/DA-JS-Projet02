@@ -1,6 +1,6 @@
 # DA-JS-Projet02
  
-Project 2 from Software Developper JavaScript React path at OpenClassrooms.<br><br>
+Project 2 from JavaScript React developper path at OpenClassrooms <br><br>
 Github Page link : https://fischkevin.github.io/DA-JS-Projet02/
 
 # Transform a Figma model into a website with HTML & CSS
